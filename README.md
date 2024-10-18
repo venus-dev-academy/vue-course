@@ -1,42 +1,23 @@
-# vue-course
+# Task 1 (Creatind sample application)
+document llink: https://vuejs.org/guide/essentials/application.html
 
-This template should help get you started developing with Vue 3 in vite.
+- Create SampleApp.vue file in src folder
+- Add simple HTML code in there
+- Mount the SampleApp
 
+See the result
 
-# Install node
-To be sure it is installed run this commend on terminal
-```sh
-node -v
-```
+# Task 2 (Define a reactive variable)
+document llink: https://vuejs.org/guide/essentials/reactivity-fundamentals.html
 
-# Install Vue.js
-```sh
-npm create vue@latest
-```
-```sh
-cd <your-project-name>
-```
+- Define a varibale 'count' in SampleApp with default value of 0
+- Create a button too
+- Add 1 to count whenever button clicked
 
-## Project Setup
+See the result
 
-```sh
-npm install
-```
+# Task 3 (Show the raective variable value in a console.log)
+document llink: https://vuejs.org/guide/essentials/reactivity-fundamentals.html
 
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-npm run test:unit
-```
+- Import onMounted hook from vue
+- Call a console.log in onMounted hook

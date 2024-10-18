@@ -1,4 +1,4 @@
-# Task 1 (Creatind sample application)
+# Task 1 (Creating sample application)
 document llink: https://vuejs.org/guide/essentials/application.html
 
 - Create SampleApp.vue file in src folder
@@ -21,3 +21,5 @@ document llink: https://vuejs.org/guide/essentials/reactivity-fundamentals.html
 
 - Import onMounted hook from vue
 - Call a console.log in onMounted hook
+
+See the result

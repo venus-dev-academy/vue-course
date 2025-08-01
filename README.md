@@ -1,21 +1,14 @@
 # vue-course
 
-This template should help get you started developing with Vue 3 in vite.
+This template should help get you started developing with Vue 3 in Vite.
 
+## Recommended IDE Setup
 
-# Install node
-To be sure it is installed run this commend on terminal
-```sh
-node -v
-```
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
 
-# Install Vue.js
-```sh
-npm create vue@latest
-```
-```sh
-cd <your-project-name>
-```
+## Customize configuration
+
+See [Vite Configuration Reference](https://vite.dev/config/).
 
 ## Project Setup
 
@@ -35,8 +28,8 @@ npm run dev
 npm run build
 ```
 
-### Run Unit Tests with [Vitest](https://vitest.dev/)
+### Lint with [ESLint](https://eslint.org/)
 
 ```sh
-npm run test:unit
+npm run lint
 ```
